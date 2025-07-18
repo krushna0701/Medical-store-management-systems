@@ -1,31 +1,39 @@
-# Medical Management System (PHP + MySQL)
+# 🏥 PHP Medical Store Management System
 
-A simple PHP-based Medical Management System designed to manage patient records, billing, inventory, and user accounts. Ideal for small clinics or as a student project.
+The PHP Medical Management System is a lightweight web-based application designed for small clinics or healthcare providers to manage their daily operations. This includes handling patient records, billing, inventory, and user accounts. Built using PHP and MySQL, with a Bootstrap-based front-end, the system is easy to deploy on any local server using XAMPP or WAMP.
 
-## 🛠️ Features
+---
 
-- User Login/Logout with Session Handling
-- Patient Billing and Invoice Management
-- Inventory Management (Medicines, Equipment)
-- User Account Settings
-- Category and Image Upload
-- Bootstrap-based Responsive UI
+## 🚀 Features
 
-## 📁 Folder Structure
-## 🛠️ Installation Steps (Localhost)
+- ✅ User login/logout and session management
+- ✅ Patient billing system
+- ✅ Inventory management (medicine/items)
+- ✅ Admin dashboard
+- ✅ Bootstrap UI for responsiveness
 
-1. Install [XAMPP](https://www.apachefriends.org/) or [WAMP](https://www.wampserver.com/).
-2. Move this folder into `htdocs/` (XAMPP) or `www/` (WAMP)
-3. Start Apache and MySQL
-4. Go to `http://localhost/phpmyadmin` and:
-   - Create a database called `store`
-   - Import the `store.sql` file
-5. Open in browser: `http://localhost/your-folder-name/`
+---
 
-## 🔐 Default Login (if available)
+## 🛠️ Installation (Localhost)
 
-Check `store.sql` for default usernames/passwords.
+1. Install **XAMPP** or **WAMP**
+2. Place the project folder in:
+   - `C:/xampp/htdocs/` (for XAMPP)
+   - `C:/wamp/www/` (for WAMP)
+3. Start Apache and MySQL from XAMPP/WAMP Control Panel
+4. Open your browser and go to:  
+   `http://localhost/phpmyadmin`
+5. Create a database named `store`
+6. Import the provided `store.sql` file into that database
+7. Now go to:  
+   `http://localhost/your-folder-name/`
 
-## 🧾 License
+---
 
-This project is open-source. You may use it for educational or personal use.
+## 🔐 Default Login
+
+Check the `users` table inside the `store.sql` file for default login credentials.
+
+---
+
+## 📂 Folder Structure
